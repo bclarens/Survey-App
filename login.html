@@ -7,8 +7,10 @@
     <title>Login</title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.2.0.min.css">
+    <link rel="stylesheet" type="text/css" href="css/social.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 
     <!--[if lt IE 9]>
       <script src = "js/html5shiv.js"></script>
@@ -18,33 +20,57 @@
   <body>
 
   <div class="home">
-    <div class="item">
-      <div class="content">
-        <form action="#" class="form-horizontal">
-          <div class="logo">
-            <h1>L</h1>
-          </div>
-          <div class="input-group lg">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input type="text" class="form-control" placeholder="Email">
-          </div>
-          <div class="input-group lg">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            <input type="password" class="form-control" placeholder="Password">
-          </div>
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-              Remember me.
-            </label>
-          </div>        
-          <div class="form-group in">
-            <input type="submit" class="btn btn-info btn-block" value="Log in">
-          </div>
+        <div class="itemlog">
+          <div class="content">
+            <form action="#" class="form-horizontal in1">
+              <div class="logo">
+                <h1>L</h1>
+              </div>
+              <br><br>
+              <div class="input-group textcon lg">
+                &nbsp;&nbsp;&nbsp;Please enter the following:
+              </div>
+              <div class="input-group lg">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="input-group lg">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">
+                  Remember me.
+                </label>
+              </div>
+              <br>        
+              <div class="form-group in">
+                <input type="submit" class="btn btn-info btn-block" value="Log in">
+              </div>
+            </form>
 
-        </form>
-      </div>
-    </div>
+            <form action="#" class="form-horizontal in1" style="margin-top: -100px;">
+              <br><br>
+              <center><h3 class="input-group textcon lg">OR</h3></center><hr>
+              <div class="input-group textcon lg" >
+                Log in through one of the following social media sites:
+              </div>
+              <div class="input-group lg">
+                  <span class="input-group-addon"></span>
+                  <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>       
+              </div>
+
+            </form>
+
+          </div>
+        </div>
   </div>
 
     <script src="js/jquery.min.js"></script>

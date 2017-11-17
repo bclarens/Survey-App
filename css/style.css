@@ -16,6 +16,11 @@ html{
   width: 520px;
   background: #fff;
 }
+.itemlog{
+  height: 520px;
+  width: 800px;
+  background: #fff;
+}
 .content{
   height: 100%;
   padding: 40px;
@@ -26,6 +31,12 @@ html{
 }
 .in{
   padding: 15px;
+}
+.in1{
+  padding: 30px;
+}
+.textcon{
+  color: #94979c;
 }
 .logo{
   width: 90px;
